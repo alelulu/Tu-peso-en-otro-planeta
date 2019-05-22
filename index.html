@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tu peso en otro planeta</title>
+</head>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Tu peso en otro planeta</h2>
+      </div>
+    </div>
+  </div>
+</header>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <form id="set-weight">
+          <input id="user-weight" type="text" placeholder="Tu peso en kg" required>
+        </form>  
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <select name="" id="planets">
+          <option value="mercurio">Mercurio</option>
+          <option value="venus">Venus</option>
+          <option selected value="tierra">Tierra</option>
+          <option value="marte">Marte</option>
+          <option value="jupiter">Júpiter</option>
+          <option value="saturno">Saturno</option>
+          <option value="urano">Urano</option>
+          <option value="neptuno">Neptuno</option>
+          <option value="pluton">Plutón</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <button id="calculate" type="button">Enviar</button>
+      </div>
+    </div>         
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3 id="weight-result">
+        </h3>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
