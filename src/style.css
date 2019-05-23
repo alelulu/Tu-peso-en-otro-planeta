@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  color: #ce5f2d;
+  background-color: #333333;
+}
+i#planet-img {
+  font-size: 200px;
+
+}
+.contenedor-div{
+  position:relative;
+}
+.mi-imagen-abajo-derecha{
+position:absolute;
+bottom:5px;
+}
